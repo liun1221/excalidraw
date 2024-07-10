@@ -54,7 +54,8 @@ const elements = [
   },
 ];
 
-registerFont("./public/Virgil.woff2", { family: "Virgil" });
+// registerFont("./public/Virgil.woff2", { family: "Virgil" });
+registerFont("./public/fonts/YeZiGongChangCangNanShouJi-2.ttf", { family: "CangNan" });
 registerFont("./public/Cascadia.woff2", { family: "Cascadia" });
 
 const canvas = exportToCanvas(

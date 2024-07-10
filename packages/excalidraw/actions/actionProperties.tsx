@@ -49,7 +49,7 @@ import {
   ArrowheadCircleOutlineIcon,
   ArrowheadDiamondIcon,
   ArrowheadDiamondOutlineIcon,
-  fontSizeIcon,
+  fontSizeIcon, TextIcon, ZhongIcon,
 } from "../components/icons";
 import {
   DEFAULT_FONT_FAMILY,
@@ -774,7 +774,7 @@ export const actionChangeFontFamily = register({
       testId: string;
     }[] = [
       {
-        value: FONT_FAMILY.Virgil,
+        value: FONT_FAMILY["Virgil, CangNan"],
         text: t("labels.handDrawn"),
         icon: FreedrawIcon,
         testId: "font-family-virgil",
